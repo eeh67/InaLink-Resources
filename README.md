@@ -79,7 +79,7 @@ background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources
 ```
 
 
-#### Toast notifications
+### Toast notifications
 
 | Toast notification "Today"                                                                                      | Snippet of HTML                                                                                                   |
 | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
