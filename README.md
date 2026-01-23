@@ -77,3 +77,10 @@ If you want to add it then add this inside of the `.line .messagebody{}`:
 ```
 background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/other/background_borders.png");
 ```
+
+
+#### Toast notifications
+
+| Toast notification "Today"                                                                                      | Snippet of HTML                                                                                                   |
+| --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| ![example toast](https://github.com/eeh67/InaLink-Resources/blob/main/README_images/toast_example.png?raw=true) | ![example toast html](https://github.com/eeh67/InaLink-Resources/blob/main/README_images/toast_html.png?raw=true) |
