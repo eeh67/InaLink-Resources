@@ -19,24 +19,24 @@ Please credit me by linking this GitHub if you use it! Thank you!
 
 I decided to use GitHub because I'm able to host the images in an organised way. This isn't a program or anything, so you don't need to download anything.
 
-### Create a Work Skin
+## Create a Work Skin
 If you don't know how to, there's plenty of tutorials, but to keep it short: look into your "Skins" in your Profile settings in Ao3.
 
 Then, under the CSS part, paste the contents from "**InaLink.css**". There's no need to download the file, just click on it in GitHub itself and copy everything in it.
 
 Congrats! You now have a Work Skin!
 
-### Select Work Skin for a fic
+## Select Work Skin for a fic
 
 Go to Edit the fic you want to use it for or create a new fic. Then, under the language settings of a fic, there's an option to select a Work Skin. Just select it in there, pretty simple!
 
-### Write using the Work Skin
+## Write using the Work Skin
 
 For this part I recommend using the HTML editor of Ao3 instead of the Rich Text one. 
 
 There's an example found in "**HTMLexample.txt**" (again, just copy and paste the contents) that you can just paste directly into your fic and edit it directly, but here's a tutorial nonetheless.
 
-#### Profile pictures
+### Profile pictures
 The profile pictures linked in the CSS are the ones found in the "**pfp_margins**" folder. 
 
 To use a specific one **use the *name of the file* without the ".png"**. You'll see where in the next step.
@@ -46,7 +46,7 @@ I might add more in the future, but it's significant work to do many at once. Th
 - host it yourself somewhere else and edit the CSS accordingly
 
 This is more of a side project for me, so I won't always have the time to keep it updated. I hope you understand!
-#### HTML explanation
+### HTML explanation
 
 Fast summary:
 
@@ -66,7 +66,7 @@ Actual summary:
 Example HTML explained:
 
 ![example html](https://github.com/eeh67/InaLink-Resources/blob/main/README_images/HTMLexplained.png?raw=true)
-#### Background image
+### Background image
 
 As shown in the example, you can also add a background image to make it more similar to InaLink. 
 
