@@ -34,7 +34,7 @@ Go to Edit the fic you want to use it for or create a new fic. Then, under the l
 
 For this part I recommend using the HTML editor of Ao3 instead of the Rich Text one. 
 
-There's an example found in "**HTMLexample.txt**" (again, just copy and paste the contents) that you can just paste directly into your fic and edit it directly, but here's a tutorial nonetheless.
+There's an example found in "**HTMLexample.txt**" (again, just copy the contents) that you can just paste into your fic and edit it directly, but here's a tutorial nonetheless.
 
 ### Profile pictures
 The profile pictures linked in the CSS are the ones found in the "**pfp_margins**" folder. 
@@ -42,7 +42,7 @@ The profile pictures linked in the CSS are the ones found in the "**pfp_margins*
 To use a specific one **use the *name of the file* without the ".png"**. You'll see where in the next step.
 
 I might add more in the future, but it's significant work to do many at once. Therefore, if you want a specific one you can either: 
-- send me a message via Tumblr asking which ones you need (no guarantee that they'll be added any time soon)
+- send me a message/ask via Tumblr asking which ones you need (no guarantee that they'll be added any time soon)
 - host it yourself somewhere else and edit the CSS accordingly
 
 This is more of a side project for me, so I won't always have the time to keep it updated. I hope you understand!
@@ -50,7 +50,7 @@ This is more of a side project for me, so I won't always have the time to keep i
 
 Fast summary:
 
-`<div class="in tenma"` / `<div class="out endou_adult"`:
+`<div class="in tenma">` / `<div class="out endou_adult">`:
 - "`in`" for incoming texts, "`out`" for outgoing texts
 - use the name of the file for the pfp selection (`tenma`, `endou_adult`)
 - name above pfp goes between `<dt></dt>`
