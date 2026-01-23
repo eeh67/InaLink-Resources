@@ -61,6 +61,8 @@ Actual summary:
 | Example image                                                                                                         | Example HTML                                                                                              |
 | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
 | <br>![example simple](https://github.com/eeh67/InaLink-Resources/blob/main/README_images/example_simple.jpg?raw=true) | <br>![example html](https://github.com/eeh67/InaLink-Resources/blob/main/README_images/HTML.png?raw=true) |
+
+
 Example HTML explained:
 
 ![example html](https://github.com/eeh67/InaLink-Resources/blob/main/README_images/HTMLexplained.png?raw=true)
