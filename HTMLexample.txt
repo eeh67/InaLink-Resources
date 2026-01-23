@@ -1,0 +1,49 @@
+<p>Bla bla idk narration:</p>
+
+<dl class="line grouptext">
+  <div class="messagebody">
+    <h4 class="contact"> Raimon</h4>
+   
+<div class="in shindou">
+  <dt>Shindou</dt>
+  <dd>Cant believe inaJP is a bunch of new players</dd>
+  </div>
+
+<div class="in sangoku">
+  <dt>Sangoku</dt>
+  <dd>Do they even know the basics of soccer?</dd>
+  </div>
+
+<div class="in tenma">
+  <dt>Tenma</dt>
+  <dd>Not yet!</dd>
+  </div>
+
+<div class="in shindou">
+  <dt>Shindou</dt>
+  <dd>Im going to kill someone</dd>
+  </div>
+
+<div class="out kirino">
+  <dt>Kirino</dt>
+  <dd>I dont condone murder</dd>
+  </div>
+
+<div class="in kariya">
+  <dt>Kariya</dt>
+  <dd>We can make an exception</dd>
+  </div>
+
+  <div class="in endou_adult">
+  <dt>Endou</dt>
+  <dd>Calm down everyone</dd>
+  </div>
+
+  <div class="in fei">
+  <dt>Fei</dt>
+  <dd>Hey guys, whats up</dd>
+  </div>
+</div>
+</dl>
+
+<p>More narration</p>

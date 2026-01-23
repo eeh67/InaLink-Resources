@@ -1,0 +1,509 @@
+
+/*  Body of the phone  */
+
+.line {
+  max-width: 320px;
+  font-family: Tahoma, sans-serif;
+  display: table;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.line * {
+  font-family: inherit;
+}
+
+.line .messagebody {
+  display: table;
+  padding-left: .5em;
+  padding-right: .5em;
+  border-radius: 10px;
+}
+
+.line .out dt,
+.line .in dt {
+  display: none;
+}
+
+/*  Contact/GroupChat Header  */
+
+.line.border .contact {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.line .contact {
+  background-color: #8CABD8;
+  min-width: 105px;
+  max-width: auto;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 0.5em;
+  margin: 0.5em auto;
+  text-align: center;
+  display: block;
+  position: relative;
+  word-spacing: 0px;
+  border-radius: 10px;
+}
+
+.line .contact::before {
+  content: "";
+  position: absolute;
+  left: 1em;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 0.75em;
+  height: 0.75em;
+  border-left: 2.5px solid black;
+  border-bottom: 2.5px solid black;
+  transform: rotate(45deg);
+}
+
+/*  Toast notifications like "Today"  */
+
+.line .time {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  font-size: 12px;
+  color: white;
+  font-style: normal;
+  line-height: 0;
+  border-radius: 50px;
+  background-color: #7793BA;
+  size: relative;
+  margin: 0 8em 0 8em;
+}
+
+.line .other {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  font-size: 12px;
+  color: white;
+  font-style: normal;
+  line-height: 0;
+  border-radius: 50px;
+  background-color: #7793BA;
+  size: relative;
+  margin: 0 5em 0 5em;
+}
+
+/*  Messages  */
+
+.line .out dd,
+.line .in dd {
+  line-height: 1.3em;
+  margin: 1px 0;
+  border-radius: 1em;
+  padding: 0.45em 0.9em;
+  max-width: 70%;
+  clear: both;
+  position: relative;
+  z-index: 1;
+}
+
+.line .out dd {
+  float: right;
+  color: #000000;
+  margin: 0.5em 0 0.625em;
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+  background: #79E278;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+.line .out dd::after {
+  content: "";
+  position: absolute;
+  right: -0.25em;
+  top: -0.75em;
+  width: 1em;
+  height: 1em;
+  border-bottom: 0.5em solid #79E278;
+  border-bottom-right-radius: 0.5em 1em;
+}
+
+.line .in dd {
+  float: left;
+  color: #000000;
+  margin: 0.5em 0 0.5em;
+  border-radius: 1.5em;
+  padding: 0.5em 1em;
+  background: #C4F7F8;
+  max-width: 75%;
+  clear: both;
+  position: relative;
+}
+
+.line .in dd::after {
+  content: "";
+  position: absolute;
+  left: -.25em;
+  top: -.75em;
+  width: 1em;
+  height: 1em;
+  border-bottom: 0.5em solid #C4F7F8;
+  border-bottom-left-radius: 0.5em 1em;
+}
+
+/*  Emojis/Pictures  */
+
+.line dd.pic::after,
+.line dd.emoji::after{
+  display: none;
+}
+
+.line dd.emoji {
+  background: none;
+  border-radius: 0;
+  padding: 0.5rem 0;
+  font-size: 3em;
+}
+
+.line dd.pic {
+  background: none;
+  padding: 0;
+  overflow: hidden;
+}
+
+.line dd.pic img {
+  max-width: 100%;
+  display: block;
+}
+
+.line dd a {
+  word-break: break-all;
+  color: inherit;
+}
+
+/*  Name above profile picture settings  */
+
+.line dt {
+  clear: both;
+  font-weight: normal;
+  font-size: 0.75rem;
+  display: table !important;
+}
+
+/*  Padding to make space for the profile picture  */
+
+.in {
+  position: relative;
+  padding-left: 3em;
+}
+
+.out {
+  position: relative;
+  padding-right: 3em;
+}
+
+
+/*  Profile picture and placement of Name above pfp for every character  */
+
+.line .in.tsurugi dt {
+  margin-left: -3.7em;
+}
+
+.line .out.tsurugi dt {
+  padding-left: 18.1em;
+  transform: translateX(4.3em);
+}
+
+.line .out.hakuryuu dt {
+  padding-left: 17.1em;
+  transform: translateX(4.3em);
+}
+
+.line .in.hakuryuu dt {
+  margin-left: -4.2em;
+}
+
+.line .out.akane dt,
+.line .out.alpha dt,
+.line .out.amagi dt,
+.line .out.tenma dt,
+.line .out.endou_adult dt,
+.line .out.kidou_adult dt {
+  padding-left: 18.1em;
+  transform: translateX(4.3em);
+}
+
+.line .out.aoi dt,
+.line .out.fei dt {
+  padding-left: 18.7em;
+  transform: translateX(4.3em);
+}
+
+.line .out.beta dt {
+  padding-left: 18.4em;
+  transform: translateX(4.3em);
+}
+
+.line .out.kariya dt,
+.line .out.hayami dt,
+.line .out.hikaru dt,
+.line .out.ichino dt,
+.line .out.kinako dt,
+.line .out.kirino dt,
+.line .out.kurama dt,
+.line .out.midori dt,
+.line .out.nishiki dt,
+.line .out.taiyou dt,
+.line .out.subaru dt,
+.line .out.zanark dt,
+.line .out.hamano dt,
+.line .out.aoyama dt {
+  padding-left: 18em;
+  transform: translateX(4.3em);
+}
+
+.line .out.sangoku dt,
+.line .out.wondeba dt,
+.line .out.shindou dt {
+  padding-left: 17.2em;
+  transform: translateX(4.3em);
+}
+
+.line .out.shinsuke dt,
+.line .out.gouenji_adult dt {
+  padding-left: 17.4em;
+  transform: translateX(4.3em);
+}
+
+.line .out.minamisawa dt {
+  padding-left: 15.9em;
+  transform: translateX(4.3em);
+}
+
+.line .in.akane dt,
+.line .in.alpha dt,
+.line .in.amagi dt,
+.line .in.tenma dt,
+.line .in.endou_adult dt,
+.line .in.kidou_adult dt {
+  margin-left: -3.8em;
+}
+
+.line .in.aoi dt,
+.line .in.fei dt {
+  margin-left: -3.1em;
+}
+
+.line .in.beta dt {
+  margin-left: -3.4em;
+}
+
+.line .in.kariya dt,
+.line .in.hayami dt,
+.line .in.hikaru dt,
+.line .in.ichino dt,
+.line .in.kinako dt,
+.line .in.kirino dt,
+.line .in.kurama dt,
+.line .in.midori dt,
+.line .in.nishiki dt,
+.line .in.taiyou dt,
+.line .in.subaru dt,
+.line .in.zanark dt,
+.line .in.hamano dt,
+.line .in.aoyama dt,
+.line .in.sangoku dt,
+.line .in.wondeba dt,
+.line .in.shinsuke dt,
+.line .in.minamisawa dt,
+.line .in.gouenji_adult dt,
+.line .in.shindou dt {
+  margin-left: -4em;
+}
+
+.tsurugi dd:first-of-type::before,
+.hakuryuu dd:first-of-type::before,
+.akane dd:first-of-type::before,
+.alpha dd:first-of-type::before,
+.amagi dd:first-of-type::before,
+.aoi dd:first-of-type::before,
+.aoyama dd:first-of-type::before,
+.beta dd:first-of-type::before,
+.endou_adult dd:first-of-type::before,
+.fei dd:first-of-type::before,
+.gamma dd:first-of-type::before,
+.gouenji_adult dd:first-of-type::before,
+.hamano dd:first-of-type::before,
+.haruna_adult dd:first-of-type::before,
+.hayami dd:first-of-type::before,
+.hikaru dd:first-of-type::before,
+.ichino dd:first-of-type::before,
+.kariya dd:first-of-type::before,
+.kidou_adult dd:first-of-type::before,
+.kinako dd:first-of-type::before,
+.kirino dd:first-of-type::before,
+.kurama dd:first-of-type::before,
+.midori dd:first-of-type::before,
+.minamisawa dd:first-of-type::before,
+.nishiki dd:first-of-type::before,
+.sangoku dd:first-of-type::before,
+.shindou dd:first-of-type::before,
+.shinsuke dd:first-of-type::before,
+.subaru dd:first-of-type::before,
+.taiyou dd:first-of-type::before,
+.tenma dd:first-of-type::before,
+.wondeba dd:first-of-type::before,
+.zanark dd:first-of-type::before {
+  content: "";
+  position: absolute;
+  top: -1.5em;
+  right: -4.3em;
+  width: 5em;
+  height: 5em;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 2.3em 2.3em;
+}
+
+.in dd:first-of-type::before {
+  left: -4.3em;
+}
+
+.tsurugi dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/tsurugi.png");
+}
+
+.hakuryuu dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/hakuryuu.png");
+}
+
+.akane dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/akane.png");
+}
+
+.alpha dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/alpha.png");
+}
+
+.amagi dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/amagi.png");
+}
+
+.aoi dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/aoi.png");
+}
+
+.aoyama dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/aoyama.png");
+}
+
+.beta dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/beta.png");
+}
+
+.endou_adult dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/endou_adult.png");
+}
+
+.fei dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/fei.png");
+}
+
+.gamma dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/gamma.png");
+}
+
+.gouenji_adult dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/gouenji_adult.png");
+}
+
+.hamano dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/hamano.png");
+}
+
+.haruna_adult dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/haruna_adult.png");
+}
+
+.hayami dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/hayami.png");
+}
+
+.hikaru dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/hikaru.png");
+}
+
+.ichino dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/ichino.png");
+}
+
+.kariya dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/kariya.png");
+}
+
+.kidou_adult dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/kidou_adult.png");
+}
+
+.kinako dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/kinako.png");
+}
+
+.kirino dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/kirino.png");
+}
+
+.kurama dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/kurama.png");
+}
+
+.midori dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/midori.png");
+}
+
+.minamisawa dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/minamisawa.png");
+}
+
+.nishiki dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/nishiki.png");
+}
+
+.sangoku dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/sangoku.png");
+}
+
+.shindou dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/shindou.png");
+}
+
+.shinsuke dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/shinsuke.png");
+}
+
+.subaru dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/subaru.png");
+}
+
+.taiyou dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/taiyou.png");
+}
+
+.tenma dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/tenma.png");
+}
+
+.wondeba dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/wondeba.png");
+}
+
+.zanark dd:first-of-type::before {
+  background-image: url("https://raw.githubusercontent.com/eeh67/InaLink-Resources/refs/heads/main/pfp_margins/zanark.png");
+}
