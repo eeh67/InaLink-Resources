@@ -11,7 +11,7 @@ This is a throwaway GitHub account (to have this separated from my uni account),
 # Credits and Thanks
 Full thanks to [this post](https://archive.transformativeworks.org/works/56948686) by noliteobdurae, which I used as a base to make the CSS. There's features there that I haven't used for mine like embedded links, videos, or similar; so if you're looking to do something like that, I recommend taking a look!
 
-Also huge thanks to Mei and their friend, who helped me get the images found here!
+Also huge thanks to [@supermassiveshot](https://supermassiveshot.tumblr.com/) on tumblr for acquiring the images used here, and to Mei as well for helping out!!
 
 # How to use
 
